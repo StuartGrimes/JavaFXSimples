@@ -4,7 +4,7 @@ At the top of the file there should be a short introduction and/ or overview tha
 
 ## Code Example
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+![screen shot 2017-10-27 at 18 17 19](https://user-images.githubusercontent.com/17004808/32116738-c758887e-bb43-11e7-9f02-1cea126c19cc.png)
 
 ## Motivation
 
