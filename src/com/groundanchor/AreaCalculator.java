@@ -30,7 +30,7 @@ public class AreaCalculator extends Application {
         Text sceneTitle;
         Button calculate;
         Stage window;
-        
+
         try {
             window = primaryStage;
             window.setTitle("Area Calculator");
