@@ -2,7 +2,7 @@
 
 This project is a simple JavaFx application that calculates the area of a rectangle.  Really its more about a first foray into using JavaFx.  Learning points for me were :
 
-* Adding a button node to a root node and having it span multiple columns does not work unless you untether the objects     preferred size by calling setMaxSize() on the object.
+* Adding a button node to a root node and having it span multiple columns does not work unless you untether the objects     preferred size by calling setMaxSize() on the button instance.
 
 * You can set horizontal alignment for a whole row by calling setHalignment(nodeName, HposValue) on your GridPane static object as opposed to the grid instance itself.
 
