@@ -1,6 +1,10 @@
 ## Synopsis
 
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+This project is a simple JavaFx application that calculates the area of a rectangle.  Really its more about a first foray into using JavaFx.  Learning points for me were :
+
+* Adding a button node to a root node and having it span multiple columns does not work unless you untether the objects     preferred size by calling setMaxSize() on the object.
+
+* You can set horizontal alignment for a whole row by calling setHalignment(nodeName, HposValue) on your GridPane static object as opposed to the grid instance itself.
 
 ## Code Example
 
@@ -8,7 +12,8 @@ At the top of the file there should be a short introduction and/ or overview tha
 
 ## Motivation
 
-This code forms part of a lab I have submitted for my computer science course that I am currently studying.
+This code forms part of a lab I have submitted for my computer science course.
+
 ## Installation
 
 Clone, compile and run.
@@ -18,7 +23,7 @@ Clone, compile and run.
 https://docs.oracle.com/javase/8/javafx/api/toc.htm
 
 ## Tests
-There are no test.
+There are no tests.
 
 ## License
 
